@@ -1,0 +1,13 @@
+.clock {
+  display: flex;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hours,
+.minutes {
+  font-weight: bolder;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 50%);
+}
