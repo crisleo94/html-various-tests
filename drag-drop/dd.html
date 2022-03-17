@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dd.css">
+  <title>Drag & Drop Test</title>
+</head>
+<body>
+  <header style="margin-bottom: 1em;">
+    <nav>
+      <button onclick="Javascript:return">
+        <a href="/index.html">Go Back</a>
+      </button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="column">
+      <h1>All Tasks</h1>
+      <div class="item" draggable="true">Some task</div>
+      <div class="item" draggable="true">Some task2</div>
+      <div class="item" draggable="true">Some task3</div>
+      <div class="item" draggable="true">Some task4</div>
+      <div class="item" draggable="true">Some task5</div>
+      <div class="item" draggable="true">Some task6</div>
+      <div class="item" draggable="true">Some task7</div>
+    </div>
+    <div class="column">
+      <h1>In Progress</h1>
+    </div>
+    <div class="column">
+      <h1>Paused</h1>
+    </div>
+    <div class="column">
+      <h1>Under Review</h1>
+    </div>
+    <div class="column">
+      <h1>Completed</h1>
+    </div>
+  </div>
+
+  <script src="dd.js"></script>
+</body>
+</html>
